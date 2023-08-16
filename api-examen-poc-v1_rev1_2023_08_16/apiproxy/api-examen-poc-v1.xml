@@ -1,0 +1,17 @@
+<APIProxy revision="1" name="api-examen-poc-v1">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1692192693246</CreatedAt>
+    <LastModifiedAt>1692192693246</LastModifiedAt>
+    <BasePaths>/api-examen/poc/v1</BasePaths>
+    <Policies>
+        <Policy>verify-oauth-v2-access-token</Policy>
+        <Policy>remove-header-authorization</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
